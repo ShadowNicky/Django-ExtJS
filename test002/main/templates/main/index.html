@@ -31,5 +31,19 @@
 
     <h1>Django + ExtJS</h1>
 
+    <!--Подключение JS-->
+    <!--Возникли какието проблемы с настройкой static/app.js через STATICFILES_DIRS, но ошибка решилась методом научного тыка-->
+
+    <!-- 1-ый способ (рабочий)-->
+    <script type="text/javascript" src="static/app.js"></script>
+
+    <!-- 2-й способ не подключает файл app.js-->
+    <!--                                     -->
+    <!--{% load static %}                    -->
+    <!--<link href="{% static 'app.js' %}">  -->
+
+    <!-- 3-ий способ файл видно в браузере, но пишет ошибку NotFound-->
+    <!--<script src="static/app.js"></script>-->
+
 </body>
 </html>
