@@ -1,0 +1,13 @@
+Django:
+1) Запуск сервера:
+    python manage.py runserver
+
+ExtJs:
+1)Создание приложения:
+    sencha generate app --ext MyApp ./myapp
+
+
+
+
+
+
