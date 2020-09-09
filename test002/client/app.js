@@ -11,5 +11,5 @@ Ext.application({
         'client.*'
     ],
 
-    mainView: 'client.view.main.Main'
+    //mainView: 'client.view.main.Main'
 });
